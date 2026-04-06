@@ -18,3 +18,6 @@ tar xzf picoclaw_Linux_arm64.tar.gz
 # Run the application using termux-chroot
 termux-chroot ./picoclaw onboard
 ```
+# Step 3
+
+After the **installation** 
