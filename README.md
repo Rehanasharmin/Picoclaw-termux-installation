@@ -6,10 +6,15 @@ install termux from [F droid](https://f-droid.org/en/packages/com.termux/) Or [P
 
 # Step 2.
 ```Shell
-pkg update & upgrade
-pkg install wget python nodejs proot
+pkg update && pkg upgrade -y
+pkg install wget python nodejs proot -y
+
 # Download the latest release
 wget https://github.com/sipeed/picoclaw/releases/latest/download/picoclaw_Linux_arm64.tar.gz
+
+# Extract the archive
 tar xzf picoclaw_Linux_arm64.tar.gz
-termux-chroot ./picoclaw onboard   # chroot provides a standard Linux filesystem layout
+
+# Run the application using termux-chroot
+termux-chroot ./picoclaw onboard
 ```
