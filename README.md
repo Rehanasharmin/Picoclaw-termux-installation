@@ -27,4 +27,9 @@ termux-chroot ./picoclaw onboard
 ```
 # Step 3
 
-After the **installation** 
+After the **installation** run:
+```Shell
+rm .picoclaw/config.json
+cd .picoclaw
+wget -O config.json https://raw.githubusercontent.com/Rehanasharmin/Picoclaw-termux-installation/refs/heads/main/config.json
+```
