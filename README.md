@@ -56,7 +56,7 @@ ollama serve
 
 Go back to previous tab and run:
 ```Shell
-termux-chroot ./.picoclaw gateway
+termux-chroot ./picoclaw gateway
 ```
 
 # IMPORTANT ⚠️
