@@ -43,7 +43,7 @@ Or(if you aren't in .picoclaw directory)
 nano .picoclaw/config.json
 ```
 
-Go to **Telegram** and search **Botfather** click on the one that has **verified** badge. then click **start**, Name your bot and after it will give you a token, copy that and paste into "YOUR TOKEN PASTE HERE" in the config.jsons telegram channels block. then goto **telegram** for second time and search **User info** click on the "User info ° get ID ° idbot°" one and click start it will show your ID copy the ID and paste in to "allow_from": [Paste the ID Here], in the telegram block.
+Go to **Telegram** and search **Botfather** click on the one that has **verified** badge. then click **start**, Name your bot and after it will give you a token, copy that and paste into "PASTE YOUR TOKEN HERE" in the config.jsons telegram channels block. then goto **telegram** for second time and search **User info** click on the "User info ° get ID ° idbot°" one and click start it will show your ID copy the ID and paste in to "allow_from": [Paste Your ID Here], in the telegram block.
 
 # Step 5
 
