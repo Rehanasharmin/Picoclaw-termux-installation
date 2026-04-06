@@ -8,7 +8,14 @@ install termux from [F droid](https://f-droid.org/en/packages/com.termux/) Or [P
 ```Shell
 pkg update && pkg upgrade -y
 pkg install wget python nodejs proot ollama -y
+
 ollama pull kimi-k2.5:cloud
+
+pkg install ca-certificates
+
+echo "export SSL_CERT_FILE=$PREFIX/etc/tls/cert.pem" >> ~/.bashrc
+source ~/.bashrc
+
 # Download the latest release
 wget https://github.com/sipeed/picoclaw/releases/latest/download/picoclaw_Linux_arm64.tar.gz
 
